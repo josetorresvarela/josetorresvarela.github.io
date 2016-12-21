@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Lora:400,700');
+* { margin:0; padding:0; box-sizing:border-box; }
 body {
+	font-family: 'Lora', serif;
 	text-align: center;
-	background: url(images/fondo.jpg);
-	background-size: cover;
-	color: #fff;
+}
+section {
+	padding:5em 0;
 }
 h1	{
 	font-size: 50px;
@@ -11,5 +14,12 @@ h1	{
 }
 p	{
 	font-size: 34px;
-	font-family: 'Lora', serif;
+	
+}
+#splash {
+	background:url(images/fondo.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	padding:10em 0 0;
+	height:100vh;
 }
