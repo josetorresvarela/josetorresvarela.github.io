@@ -3,11 +3,13 @@ body {
 	background: url(images/fondo.jpg);
 	background-size: cover;
 	color: #fff;
-	font-family: Helvetica;
 }
 h1	{
 	font-size: 50px;
 	font-weight: bold;
+	font-family: Helvetica;
 }
 p	{
 	font-size: 34px;
+	font-family: 'Lora', serif;
+}
